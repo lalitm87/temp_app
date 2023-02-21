@@ -1,4 +1,4 @@
-% Range 정규화 보정 스펙트럼
+
 function [Spectral] = Range_normalize (x)
 
 [XS1 YS1] = size(x);
@@ -11,3 +11,5 @@ for i = 1:XS1;
     Min_spectra = min(x(i,:));
     Spectral(i,:) = x(i,:)'/(Max_spectra-Min_spectra);
 end
+
+aa = a;
