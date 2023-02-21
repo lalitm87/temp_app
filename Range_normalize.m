@@ -12,4 +12,3 @@ for i = 1:XS1;
     Spectral(i,:) = x(i,:)'/(Max_spectra-Min_spectra);
 end
 
-aa = a;
